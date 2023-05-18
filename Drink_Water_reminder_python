@@ -1,0 +1,7 @@
+import time
+from plyer import notification
+
+# t=float(input("enter time"))
+while(True):
+    time.sleep(10)
+    notification.notify(title="WAter",message="vivek please WATER DRINK VIVEK",timeout=2)
